@@ -24,4 +24,20 @@ export const Container = styled.div`
     margin: 1.0rem;
     color: #E6E6E6;
   }
+
+  @media (max-width: 900px) {
+    .banner-default {
+      margin-top: 3.6rem;
+      height: 12.0rem;
+    }
+
+    .banner-default h1{
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .banner-default p {
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  }
 `

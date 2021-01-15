@@ -11,9 +11,16 @@ export const Container = styled.div`
     justify-content: center;
     position:fixed;
     top: 0;
+    z-index: 2;
   }
 
   .navbar-default img {
     height: 100%;
+  }
+
+  @media (max-width: 900px) {
+    .navbar-default {
+      height: 3.6rem; 
+    }
   }
 `
