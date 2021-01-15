@@ -26,6 +26,7 @@ module.exports = {
     semi: [2, 'never'],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx', '.css'] }],
     'import/extensions': 'off',
+    'import/prefer-default-export': 'off'
   },
   settings: {
     'import/resolver': {
