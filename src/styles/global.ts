@@ -8,12 +8,18 @@ export default createGlobalStyle`
   }
   body {
     color: #2e2e2e;
-    background: #f0f0f0;
+    background: #ffe8bf;
+    width: 100%;
   }
   body, input, button, textarea {
     font: 600 18px Nunito, sans-serif;
   }
   a { 
     text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 `
